@@ -1,0 +1,124 @@
+@import url(common.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sacramento&display=swap");
+@font-face {
+  font-family: 'seolleimcool-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/seolleimcool-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+* {box-sizing: border-box;
+}
+*::-webkit-scrollbar {width: 0;
+}
+
+body{
+  text-align: center;
+  background-color: /* rgb(255, 241, 212); */ #111;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+body>div
+  {width: 100%;
+  }
+
+#title
+  {font-size: 40px;
+  color: green;
+  margin: 50px 0 20px;
+  font-family: 'Permanent Marker', cursive;
+  }
+#title .merry::first-letter, #title p>span {color: red;}
+#title .merry
+  {text-transform: uppercase;}
+  #title .esg
+    {color: red;}
+  .esg b
+   {color: rgb(255, 208, 0);}
+  #title .dash
+    {color: lightgoldenrodyellow;}
+
+/* -------------------------------------------------- */
+#layer2
+  {
+  width: 70%;
+  margin: 0 0 30px;
+  }
+
+
+/* -------------------------------------------------- */
+#contents {margin-bottom: 30px;}
+#contents div:first-child
+  {margin-bottom: 40px;
+  line-height: 1.5;
+  color: lightgoldenrodyellow;
+  }
+  #contents div:nth-child(2), #contents div:nth-child(3)
+   {color: gold;
+   font-size: 14px;
+   line-height: 1.2;
+   margin-bottom: 5px;
+  }
+
+  #arrow .material-symbols-outlined
+    {margin-bottom: 30px;
+    animation: arrow 2s infinite alternate;
+    color: red;
+    }
+
+  @keyframes arrow
+    {50%{color: red;}
+    100%{color: green;}
+    }
+
+/* ----------------------------------------------------- */
+#program
+  {border-radius: 50px;
+  width: 80%;
+  margin: 0 auto 50px;
+  padding: 30px 0;
+  background-color:lemonchiffon;
+  }
+#program .prepare
+  {margin: 30px 0;
+  }
+  #program .prepare>div>:nth-child(2){margin-bottom: 30px;}  
+  #program .prepare>div
+    {line-height: 1.5;}
+    #program .prepare>div>span:first-child{background-color: rgb(207, 0, 0);}
+    #program .prepare>div>span
+    {margin-bottom: 10px;
+    display: inline-block;
+    padding: 3px 10px 0px;
+    border-radius: 50px;
+    background-color: green;
+    color: #fff;
+    }
+    #program .prepare>div>p:nth-child(3)
+      {font-size: 14px;
+      color: #333;
+      }
+#program .program
+  {margin: 10px 0 30px;}
+#program .program>li:first-child
+  {margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 10px 0px;
+    border-radius: 50px;
+    background-color: rgb(207, 0, 0);
+    color: #fff;
+  }
+  #program .program>li
+    {margin: 5px;}
