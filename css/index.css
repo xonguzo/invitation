@@ -71,7 +71,7 @@ body>div
    line-height: 1.2;
    margin-bottom: 5px;
   }
-
+  #arrow {margin-bottom: 50px;}
   #arrow .material-symbols-outlined
     {margin-bottom: 30px;
     animation: arrow 2s infinite alternate;
